@@ -3,20 +3,20 @@ Universidade Federal de Minas Gerais
 Departamento de Ciência da Computação 
 Programação e Desenvolvimento de Software II
 
-André Vasconcelos Borges Morais 2021073852
-Fernanda Lorenza Fernandes Pinto 2022096984
-Lucas de Almeida Souza 
-Marcos Paulo Gomes Rodrigues 2022080747
-Pedro Lopes Ozelin 2020095488
+André Vasconcelos Borges Morais 2021073852  
+Fernanda Lorenza Fernandes Pinto 2022096984  
+Lucas de Almeida Souza   
+Marcos Paulo Gomes Rodrigues 2022080747  
+Pedro Lopes Ozelin 202009548  
 Vitor Coimbra Pontes Maia 2022054622
 
-Trabalho Prático - Sistema para controle de estoque
+##Trabalho Prático - Sistema para controle de estoque
 
 O trabalho prático consiste na implementação de um sistema de controle de estoque, que receberá como entrada a lista de produtos em um arquivo de extensão TXT.
 O programa inicialmente deve ler as entradas contendo informações sobre os produtos, armazenar essas entradas em alguma estrutura interna (em memória) e realizar as operações solicitadas.
 Este programa deve ser capaz de receber dados por parâmetro de linha de comando, bem como trabalhar com leitura e gravação de arquivos de texto.
 
-*ENTRADA: 
+###ENTRADA: 
 A primeira linha possui a quantidade (Q) de produtos que constam na lista 
 As próximas 5 * Q linhas representam os dados de cada produto
 ⇢ Código
@@ -25,7 +25,7 @@ As próximas 5 * Q linhas representam os dados de cada produto
 ⇢ Preço
 ⇢ Estado
 
-*Execução: O programa deve ser executado a partir da linha de comando com os seguintes parâmetros:
+**Execução:** O programa deve ser executado a partir da linha de comando com os seguintes parâmetros:
 .\tp2 [param1] [param2] [param3]
 
 [param1]: Nome do arquivo de entrada.
@@ -49,7 +49,7 @@ Listar produtos por estado.\tp2 input.txt 4 MG
 Encontrar produto com menor quantidade em estoque do estado.\tp2 input.txt 5 SP
 Calcular a quantidade total de itens no estoque: .\tp2 input.txt 6
 
-*SAÍDA: 
+###SAÍDA: 
 
 Gerar relatório de estoque:
 O programa deve gerar um arquivo TXT, com o nome passado pelo param3, salvo no mesmo diretório de execução. Deve-se salvar a lista de todos os produtos COM OS NOMES EM ORDEM ALFABÉTICA, com os mesmos dados da entrada, um dado por linha (Código, Nome, Quantidade, Preço e Estado).
