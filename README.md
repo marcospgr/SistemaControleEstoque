@@ -10,7 +10,7 @@ Marcos Paulo Gomes Rodrigues 2022080747
 Pedro Lopes Ozelin 2020095488
 Vitor Coimbra Pontes Maia 2022054622
 
-#Trabalho Prático - Sistema para controle de estoque
+Trabalho Prático - Sistema para controle de estoque
 
 O trabalho prático consiste na implementação de um sistema de controle de estoque, que receberá como entrada a lista de produtos em um arquivo de extensão TXT.
 O programa inicialmente deve ler as entradas contendo informações sobre os produtos, armazenar essas entradas em alguma estrutura interna (em memória) e realizar as operações solicitadas.
