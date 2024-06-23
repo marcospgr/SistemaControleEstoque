@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <algorithm>
+#include <numeric>
 
 bool lerArquivo(const std::string &input, std::vector<Produto> &produtos) {
     std::ifstream arquivo(input);
@@ -12,7 +13,7 @@ bool lerArquivo(const std::string &input, std::vector<Produto> &produtos) {
 
     int quantidadeProdutos;
     arquivo >> quantidadeProdutos;
-    arquivo.ignore(); // Ignorar o newline após a quantidade
+    arquivo.ignore(); // Ignorar o newline apos a quantidade
 
     produtos.resize(quantidadeProdutos);
 
@@ -21,7 +22,7 @@ bool lerArquivo(const std::string &input, std::vector<Produto> &produtos) {
         std::getline(arquivo, produtos[i].nome);
         arquivo >> produtos[i].quantidade;
         arquivo >> produtos[i].preco;
-        arquivo.ignore(); // Ignorar o newline após o preço
+        arquivo.ignore(); // Ignorar o newline apos o preco
         std::getline(arquivo, produtos[i].estado);
     }
 
@@ -63,7 +64,7 @@ void pesquisarPorCodigo(const std::vector<Produto> &produtos, const std::string 
             return;
         }
     }
-    std::cerr << "Produto não encontrado" << std::endl;
+    std::cerr << "Produto nao encontrado" << std::endl;
 }
 
 void listarMenorQuantidade(const std::vector<Produto> &produtos) {
@@ -131,4 +132,3 @@ void calcularQuantidadeTotal(const std::vector<Produto> &produtos) {
 
     std::cout << quantidadeTotal << "\n";
 }
-
