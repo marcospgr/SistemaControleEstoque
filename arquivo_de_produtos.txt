@@ -1,0 +1,26 @@
+5
+001
+Produto A
+10
+15.50
+SP
+002
+Produto B
+20
+10.25
+RJ
+003
+Produto C
+15
+5.75
+MG
+004
+Produto D
+5
+30.00
+SP
+005
+Produto E
+12
+8.99
+RJ
