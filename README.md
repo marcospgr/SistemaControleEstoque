@@ -1,13 +1,13 @@
 # SistemaControleEstoque
-Universidade Federal de Minas Gerais 
-Departamento de Ciência da Computação 
+Universidade Federal de Minas Gerais  
+Departamento de Ciência da Computação  
 Programação e Desenvolvimento de Software II
 
 André Vasconcelos Borges Morais 2021073852  
 Fernanda Lorenza Fernandes Pinto 2022096984  
 Lucas de Almeida Souza   
 Marcos Paulo Gomes Rodrigues 2022080747  
-Pedro Lopes Ozelin 202009548  
+Pedro Lopes Ozelin 2020095488  
 Vitor Coimbra Pontes Maia 2022054622
 
 ##Trabalho Prático - Sistema para controle de estoque
