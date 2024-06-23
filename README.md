@@ -3,6 +3,7 @@ Universidade Federal de Minas Gerais
 Departamento de Ciência da Computação  
 Programação e Desenvolvimento de Software II
 
+# Grupo
 André Vasconcelos Borges Morais 2021073852  
 Fernanda Lorenza Fernandes Pinto 2022096984  
 Lucas de Almeida Souza   
