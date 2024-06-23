@@ -1,7 +1,7 @@
 #ifndef FUNCOES_HPP
 #define FUNCOES_HPP
 
-#include "Produto.h"
+#include "Produto.hpp"
 #include <vector>
 #include <string>
 
@@ -14,4 +14,3 @@ void encontrarMenorQuantidadePorEstado(const std::vector<Produto> &produtos, con
 void calcularQuantidadeTotal(const std::vector<Produto> &produtos);
 
 #endif // FUNCOES_HPP
-
