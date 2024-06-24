@@ -6,7 +6,7 @@ Programação e Desenvolvimento de Software II
 # Grupo
 André Vasconcelos Borges Morais 2021073852  
 Fernanda Lorenza Fernandes Pinto 2022096984  
-Lucas de Almeida Souza   
+Lucas de Almeida Souza 2022087938   
 Marcos Paulo Gomes Rodrigues 2022080747  
 Pedro Lopes Ozelin 2020095488  
 Vitor Coimbra Pontes Maia 2022054622
